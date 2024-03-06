@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#btnedit{
+    background-color: rgb(211, 180, 4);
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    color: #000000;
+    font-weight: 400;
+    padding: 2px 6px 2px 6px;
+}
+#btnedit:hover{
+    background-color: rgb(248, 219, 56);
+}
+
+#btndelete{
+    background-color: rgb(211, 180, 4);
+    border: none;
+    border-radius: 5px;
+    color: #020000;
+    font-weight: 400;
+    padding: 2px 6px 2px 6px;
+}
+#btndelete:hover{
+    background-color: rgb(248, 219, 56);
+}
+.input-group{
+   display: flex;
+   justify-content: flex-end;
+}
+.input-group #serach{
+    margin: 0 20px 10px 0;
+    border-radius: 5px;
+}
+#serach_icon{
+    font-size: 20px;
+    margin-right: 5px;
+    padding-top: 5px;
+}
+#personal_info{
+    border: 1px solid green;
+    width: 40%;
+    margin: 20px 0 5px 20px;
+    padding: 30px;
+    border-radius: 5px;
+
+}
+#serach{
+    padding: 2px 4px 2px 4px;
+}
+.name .lebel{
+    font-size: 20px;
+    margin-right: 30px;
+    padding: 7px;
+    
+}
+.number .lebel{
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 7px;
+    
+}
+.input{
+    padding: 2px 4px 2px 4px;
+}
+#saveValue{
+    border: none;
+    padding: 10px 45px;
+    margin: 12px 0 0 8px;
+    background-color: #000000;
+    color: #ffff;
+    border-radius: 5px;
+}
+#saveValue:hover{
+    background-color: #d10909;
+}
+.active{
+    background-color: red;
+}
+.page-item{
+    margin: auto;
+}
